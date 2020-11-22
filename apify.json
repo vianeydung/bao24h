@@ -2,6 +2,10 @@
 	"name": "bao24h",
 	"version": "0.0",
 	"buildTag": "latest",
-	"env": null,
+	"env": {
+    "MONGO_URI": "mongodb://localhost:27017/crawl",
+    "DB_NAME": "crawl",
+    "COLLECTION_NAME": "cl-news"
+  },
 	"template": "example_hello_world"
 }
